@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>org.hidetake.osx.go.to.bed</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/bin/osascript</string>
+      <string>-e</string>
+      <string>
+        display notification "Sleeping Time" with title time string of (date "0:0" + (date "08:00" - current date))
+      </string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <array>
+      <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>0</integer></dict>
+      <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>10</integer></dict>
+      <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>20</integer></dict>
+      <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>30</integer></dict>
+      <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>40</integer></dict>
+      <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>50</integer></dict>
+      <dict><key>Hour</key><integer>23</integer><key>Minute</key><integer>0</integer></dict>
+      <dict><key>Hour</key><integer>23</integer><key>Minute</key><integer>10</integer></dict>
+      <dict><key>Hour</key><integer>23</integer><key>Minute</key><integer>20</integer></dict>
+      <dict><key>Hour</key><integer>23</integer><key>Minute</key><integer>30</integer></dict>
+      <dict><key>Hour</key><integer>23</integer><key>Minute</key><integer>40</integer></dict>
+      <dict><key>Hour</key><integer>23</integer><key>Minute</key><integer>50</integer></dict>
+      <dict><key>Hour</key><integer>0</integer><key>Minute</key><integer>0</integer></dict>
+      <dict><key>Hour</key><integer>0</integer><key>Minute</key><integer>10</integer></dict>
+      <dict><key>Hour</key><integer>0</integer><key>Minute</key><integer>20</integer></dict>
+      <dict><key>Hour</key><integer>0</integer><key>Minute</key><integer>30</integer></dict>
+      <dict><key>Hour</key><integer>0</integer><key>Minute</key><integer>40</integer></dict>
+      <dict><key>Hour</key><integer>0</integer><key>Minute</key><integer>50</integer></dict>
+    </array>
+  </dict>
+</plist>
