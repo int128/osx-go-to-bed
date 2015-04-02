@@ -8,6 +8,9 @@ Sleeping time is most important to improve productivity.
 osx-go-to-bed shows how long you can sleep in a notification center message.
 
 
+![osx-go-to-bed-1 0](https://cloud.githubusercontent.com/assets/321266/6965453/81294280-d98c-11e4-9faa-447e0a00997a.png)
+
+
 ## Install
 
 Download the release and load into luanchd.
