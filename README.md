@@ -18,20 +18,23 @@ Download the release and load into luanchd.
 ```sh
 git clone https://github.com/int128/osx-go-to-bed.git
 cd osx-go-to-bed
-launchctl load osx-go-to-bed.plist
+./install.sh
 ```
 
 
-## Customize
+### Customize
 
-Wake-up time, default is `08:00`, can be changed in plist XML.
+Followings can be changed.
 
-Enabled hours and interval, default is every 10 minutes from `22:00` to `01:00`, can be changed in plist XML.
+* Wake-up time, default is `08:00`
+* Hours and interval, default is every 10 minutes from `22:00` to `01:00`
+
+After script or plist is changed, run `./install.sh` again.
 
 
 ## Uninstall
 
 ```sh
-launchctl unload osx-go-to-bed.plist
+./uninstall.sh
 ```
 
