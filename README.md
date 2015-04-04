@@ -1,11 +1,9 @@
 osx-go-to-bed
 =============
 
-Time is money.
+Sleeping time is most important for improving performance.
 
-Sleeping time is most important to improve productivity.
-
-osx-go-to-bed shows how long you can sleep in a notification center message.
+osx-go-to-bed shows remaining time until awake in next morning as a notification center message.
 
 
 ![osx-go-to-bed-1 2](https://cloud.githubusercontent.com/assets/321266/6993045/24263e16-db22-11e4-94a9-776b0ef41dd1.png)
