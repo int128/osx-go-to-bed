@@ -1,8 +1,9 @@
 #!/usr/bin/osascript
 
-set awake_time to date "08:00:00"
-set title_head to "Remaining"
-set description to "You can sleep only"
+set awakeTime to date "8:00:00"
 
-set remain_time to date "0:0" + (awake_time - current date)
-display notification description with title title_head & " " & time string of remain_time
+set {hours: remainHours, minutes: remainMinutes} to (date "0:0") + (awakeTime - (current date))
+set messageTitle to "Remaining " & remainHours & " hours " & remainMinutes & " minutes"
+set messageDescription to "now " & time string of (current date)
+
+display notification messageDescription with title messageTitle
